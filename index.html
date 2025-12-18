@@ -5,60 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melih Levent Aslan | Geodetic Engineer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
     <header>
-        <div class="container">
-            <div class="logo">Melih Levent Aslan</div>
+        <div class="container header-container">
+            <div class="logo">Melih Levent Aslan <span class="dot">.</span></div>
             <nav>
                 <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact" class="btn-small">Contact</a>
+                <a href="#projects">Research</a>
+                <a href="#contact" class="btn-outline">Contact Me</a>
             </nav>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container hero-content">
-            <h1>Geodetic Engineering & <br> Spatial Intelligence</h1>
-            <p class="subtitle">M.Sc. Student at University of Bonn</p>
-            <p class="bio">
-                Focusing on <strong>Deep Learning</strong>, <strong>SLAM</strong>, and <strong>Computational Geometry</strong>. 
-                Bridging the gap between raw sensor data and semantic map understanding.
-            </p>
-            <div class="social-links">
-                <a href="https://github.com/MelihLevent-Aslan" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://linkedin.com/in/melih-levent-aslan" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <section class="hero" id="about">
+        <div class="container hero-wrapper">
+            <div class="hero-text fade-in-up">
+                <span class="greeting">Hello, I'm Melih</span>
+                <h1>Exploring the geometry of <br> <span class="highlight">Spatial Data</span>.</h1>
+                <p class="bio">
+                    M.Sc. Student at <strong>University of Bonn</strong>. <br>
+                    Specializing in Deep Learning, SLAM, and Automated Cartography.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/MelihLevent-Aslan" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/melih-levent-aslan" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:melih.levent.aslan@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-up delay">
+                <img src="https://ui-avatars.com/api/?name=Melih+Levent+Aslan&background=004e9f&color=fff&size=400" alt="Melih Levent Aslan" class="profile-pic">
             </div>
         </div>
     </section>
 
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Research & Projects</h2>
+            <h2 class="section-title">Selected Research</h2>
             <div class="project-grid">
                 
+                <a href="https://github.com/MelihLevent-Aslan/semantic-map-segmentation" target="_blank" class="project-card-link">
+                    <div class="project-card">
+                        <div class="card-top">
+                            <i class="fas fa-layer-group icon"></i>
+                            <span class="year">2025</span>
+                        </div>
+                        <h3>Semantic Map Segmentation</h3>
+                        <p>Automated bootstrapping of historical map data using U-Net architectures and synthetic data generation.</p>
+                        <div class="tags">
+                            <span>PyTorch</span>
+                            <span>OpenCV</span>
+                            <span>Deep Learning</span>
+                        </div>
+                    </div>
+                </a>
+
                 <div class="project-card">
-                    <div class="card-icon"><i class="fas fa-map-marked-alt"></i></div>
-                    <h3>Semantic Map Segmentation</h3>
-                    <p>Training Deep Learning models (U-Net) on synthetic datasets to segment historical and mobile mapping data automatically.</p>
-                    <span class="tag">PyTorch</span> <span class="tag">Computer Vision</span>
+                    <div class="card-top">
+                        <i class="fas fa-satellite-dish icon"></i>
+                        <span class="year">In Progress</span>
+                    </div>
+                    <h3>Lidar SLAM & Trajectories</h3>
+                    <p>State estimation pipelines for mobile mapping platforms, focusing on loop closure optimization.</p>
+                    <div class="tags">
+                        <span>ROS 2</span>
+                        <span>C++</span>
+                        <span>SLAM</span>
+                    </div>
                 </div>
 
                 <div class="project-card">
-                    <div class="card-icon"><i class="fas fa-robot"></i></div>
-                    <h3>Lidar SLAM & Trajectory Analysis</h3>
-                    <p>Processing raw trajectory data for state estimation and optimizing loop closures in dynamic environments.</p>
-                    <span class="tag">ROS 2</span> <span class="tag">C++</span>
-                </div>
-
-                <div class="project-card">
-                    <div class="card-icon"><i class="fas fa-layer-group"></i></div>
-                    <h3>Spatiotemporal Visualization</h3>
-                    <p>Algorithmic approaches to visualize time-dependent spatial data, inspired by computational geometry principles.</p>
-                    <span class="tag">Python</span> <span class="tag">Matplotlib</span>
+                    <div class="card-top">
+                        <i class="fas fa-chart-network icon"></i>
+                        <span class="year">Concept</span>
+                    </div>
+                    <h3>Spatiotemporal Viz</h3>
+                    <p>Interactive visualization algorithms for time-dependent spatial data constraints.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Algorithms</span>
+                    </div>
                 </div>
 
             </div>
@@ -67,9 +98,7 @@
 
     <footer id="contact">
         <div class="container">
-            <p>Interested in collaboration?</p>
-            <a href="mailto:melih.levent.aslan@gmail.com" class="email-link">melih.levent.aslan@gmail.com</a>
-            <p class="copyright">&copy; 2025 Melih Levent Aslan. Built for Science.</p>
+            <p>&copy; 2025 Melih Levent Aslan. <span>Built for Science.</span></p>
         </div>
     </footer>
 
