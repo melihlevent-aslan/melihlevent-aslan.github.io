@@ -28,9 +28,10 @@ The design philosophy focuses on **minimalism, responsiveness, and academic clar
 ## 📂 Directory Structure
 ```bash
 ├── index.html       # Main landing page structure
-├── style.css        # Custom styling and responsiveness
-├── README.md        # Project documentation
-└── assets/          # (Future) Images and downloadable PDFs
+├── style.css        
+├── README.md
+├── script.js
+└── assets/          
 ```
 
 ---
