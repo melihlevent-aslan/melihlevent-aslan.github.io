@@ -6,26 +6,24 @@
 
 > **"Bridging the gap between raw sensor data and semantic understanding."**
 
-## 📌 Overview
+##  Overview
 This repository hosts the source code for my personal academic portfolio. It serves as a central hub to showcase my research projects in **Geodetic Engineering**, **Deep Learning**, and **SLAM** at the **University of Bonn**.
 
 The design philosophy focuses on **minimalism, responsiveness, and academic clarity**, ensuring that my research output is accessible across all devices.
 
-🔗 **Live Website:** [melihlevent-aslan.github.io](https://melihlevent-aslan.github.io)
+ **Live Website:** [melihlevent-aslan.github.io](https://melihlevent-aslan.github.io)
 
-## 🚀 Key Features
+##  Key Features
 - **Responsive Design:** Optimized for Desktop, Tablet, and Mobile using CSS Grid & Flexbox.
 - **Project Showcase:** Dynamic cards linking to specific GitHub research repositories (e.g., Semantic Map Segmentation).
 - **Clean UI/UX:** Custom CSS variables for consistent theming (Uni Bonn inspired color palette).
-- **Performance:** Lightweight static site with no heavy framework dependencies.
 
-## 🛠 Tech Stack
+##  Tech Stack
 - **Structure:** HTML5 (Semantic)
 - **Styling:** CSS3 (Custom Properties, Media Queries)
 - **Icons:** FontAwesome 6
-- **Hosting:** GitHub Pages (Automated Deployment)
 
-## 📂 Directory Structure
+##  Directory Structure
 ```bash
 ├── index.html       # Main landing page structure
 ├── style.css        
