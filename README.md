@@ -31,6 +31,7 @@ The design philosophy focuses on **minimalism, responsiveness, and academic clar
 ├── style.css        # Custom styling and responsiveness
 ├── README.md        # Project documentation
 └── assets/          # (Future) Images and downloadable PDFs
+```
 
 ---
-Melih Levent Aslan | M.Sc. Student, University of Bonn
+*Melih Levent Aslan | M.Sc. Student, University of Bonn*
