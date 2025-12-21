@@ -1,6 +1,6 @@
 // Typing Effect
 const textElement = document.getElementById("typing-text");
-const texts = ["Deep Learning", "SLAM", "Geodesy", "Python"];
+const texts = ["Deep Learning", "3D City Models", "Urban Analytics", "Point Clouds", "Spatial AI", "Geodesy", "Python"];
 let count = 0;
 let index = 0;
 let currentText = "";
